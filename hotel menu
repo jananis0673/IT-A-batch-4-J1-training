@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter category:");
+        System.out.println("juice \nbiryani \ndessert ");
+        String category = sc.nextLine().toLowerCase();
+        switch(category) {
+            case "juice":
+                System.out.println("Mango Juice - Rs.70");
+                System.out.println("Apple Juice - Rs.50");
+                System.out.println("Orange Juice - Rs.60");
+                System.out.println("Pomegranate Juice - Rs.100");
+                break;
+            case "biryani":
+                System.out.println("Chicken Biryani - Rs.220");
+                System.out.println("Mutton Biryani - Rs.280");
+                System.out.println("Egg Biryani - Rs.180");
+                System.out.println("Veg Biryani - Rs.160");
+                break;
+            case "dessert":
+                System.out.println("Ice Cream - Rs.60");
+                System.out.println("Brownie - Rs.90");
+                System.out.println("Chocolate Cake - Rs.120");
+                System.out.println("Falooda - Rs.110");
+                break;
+            default:
+                System.out.println("Category not available");
+        }
+        System.out.println("which " + (category) + " you want :");
+        sc.close();
+    }
+}
