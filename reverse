@@ -1,0 +1,8 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    String s="java";
+	    String rev = new StringBuilder(s).reverse().toString();
+		System.out.println(rev);
+	}
+}
