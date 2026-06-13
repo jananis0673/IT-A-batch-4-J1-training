@@ -1,0 +1,7 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    String s="Training";
+		System.out.println(s.replace('g','n'));
+	}
+}
