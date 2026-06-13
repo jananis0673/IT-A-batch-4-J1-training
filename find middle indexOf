@@ -1,0 +1,9 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    String s="banana";
+	    int first = s.indexOf('a');
+	    int second = s.indexOf('a',first+1);
+		System.out.println(second);
+	}
+}
